@@ -11,24 +11,24 @@
             height: 500px;
             border: 2px dotted slateblue;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            /* justify-content: center; */
+            /* align-items: center; */
         }
 
         .box {
-            font-size: 3em;
+            /* font-size: 3em; */
             width: 200px;
-            height: 200px;
+            /* height: 200px; */
             border: 3px dashed rebeccapurple;
+        }
+
+        #box-1 {
+            order: 2;
         }
 
         #box-2 {
             order: 1;
             flex-grow: 1;
-        }
-
-        #box-1 {
-            order: 2;
         }
     </style>
 </head>
@@ -37,7 +37,27 @@
     <h1>I am flexible now</h1>
     <div class="container">
         <div id="box-1" class="box">BOX-1</div>
-        <div id="box-2" class="box">BOX-2</div>
+        <div id="box-2" class="box">
+            <h2>BOX-2</h2>
+            <article class="blog">
+                <h4>blog-1</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam blanditiis incidunt eligendi
+                    illo. Nihil perferendis soluta saepe maxime aperiam quas nisi nostrum pariatur eos id a, amet rerum
+                    doloribus voluptatum.</p>
+            </article>
+            <article class="blog">
+                <h4>blog-2</h4>
+                <p>Labore eius quisquam magnam modi sunt ratione culpa sed vel veritatis necessitatibus deserunt id
+                    minus inventore excepturi placeat ipsam nulla, rerum tempora debitis, ab accusamus amet molestias
+                    ipsum sequi. Cum.</p>
+            </article>
+            <article class="blog">
+                <h4>blog-3</h4>
+                <p>Nemo accusantium omnis, quo nisi deleniti alias vel hic laboriosam sapiente, quidem odit enim fugit
+                    perferendis? Consequuntur debitis illo ad nobis, facere sunt dolorem modi id, error similique iure
+                    expedita.</p>
+            </article>
+        </div>
 
     </div>
 </body>
